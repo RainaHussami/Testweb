@@ -1,0 +1,619 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #f7bdbd;
+
+}
+.inline-block{
+    vertical-align: top;
+}
+
+.logo-link {
+    margin-right: auto;
+    text-decoration: none;
+}
+
+.logo {
+    width: 10%;
+
+}
+
+nav ul {
+    list-style: none;
+    display: inline-flex;
+    float: right;
+}
+
+nav ul li {
+    display: inline-flex;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    color: hotpink;
+    text-decoration: underline;
+}
+
+nav ul li a:hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: hotpink;
+}
+.hero {
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+    padding-left: 250px;
+}
+.my-class{
+    padding: 150px;
+    margin: 50px;
+}
+.my-class h1 {
+    font-size: 24px;
+    margin: 10px;
+
+}
+
+.my-class p {
+    margin: 10px;
+    width: 12cm;
+}
+
+.image {
+    margin: 50px auto;
+    justify-content: flex-end;
+    padding-right: 100px;
+
+}
+.image {
+    position: relative;
+    display: inline-block;
+}
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.Header2 {
+    font-size: 18px;
+    margin: 15px;
+    font-weight: bold;
+    margin-top: 3px;
+    width: 100%;
+    display: inline-flex;
+    padding-top: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.about-me-button {
+    display: block;
+    margin-top: 10px;
+    margin: 20px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    transition: color 0.3s;
+}
+
+.about-me-button:hover {
+    color: hotpink;
+    border-color: hotpink;
+}
+
+.name {
+    display: block;
+}
+
+.position {
+    display: block;
+}
+.horizontal-line {
+    width: 917px;
+    height: 1px;
+    background-color: black;
+    margin: 20px auto;
+}
+.process {
+display: flex;
+flex-direction: column;
+}
+.png {
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+}
+.about-me {
+    display: flex;
+    padding-left: 250px;
+}
+
+.Design-process {
+    display: inline-block;
+    font-size: 17px;
+    Font-weight: bold;
+    padding-left: 250px;
+}
+.p2 {
+    font-size: 20;
+    display:flex;
+    width: 40cm;
+    padding-left: 500px;
+    padding-top: 30px;
+}
+.horizontal-line {
+    width: 917px;
+    height: 1px;
+    background-color: black;
+    margin: 50px auto;
+}
+#work {
+    padding-left: 350px;
+    font-size: 30;
+}
+#apps { 
+    padding-left: 350px;
+    font-size: 20;
+}
+#projects {
+    padding-left: 250px;
+    padding-bottom: 20px;
+}
+#mobileapps { 
+    padding-left: 250px;
+    padding-bottom: 20px;
+}
+.mywork {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(2px, 1fr));
+    grid-gap: 10px;
+    justify-items:flex;
+    padding-bottom: 100px;
+    padding-left: 250px;
+
+ }
+ .seatmep {
+    width: 300px;
+ }
+.justgop {
+    width: 300px;
+}
+.cfiap {
+    width: 300px;
+}
+.website {
+    padding-left: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.website1{
+    display:flex;
+    flex-direction:row;
+    padding-left: 300px;
+    padding: 30px;
+}
+.cfiawebp {
+    padding-top: 150px;
+    width: 500px;
+    padding-left: 150px;
+    flex: 1;
+
+}
+.rogerp {
+    padding-top: 150px;
+    width: 500px;
+    padding-left: 150px;
+
+}
+.website2{
+    display:flex;
+    flex-direction:row;
+    padding-left: 300px;
+    padding: 30px;
+}
+input[type="checkbox"] {
+    display: none;
+  }
+
+
+.checkbox-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.checkbox {
+    position: relative;
+    padding-left: 30px; 
+    cursor: pointer;
+    margin-bottom: 10px; 
+    font-size: 16px; 
+  }
+  
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border: 2px solid #000; 
+  }
+  
+input[type="checkbox"]:checked + .checkmark {
+    background-color: #000; 
+  }
+.squeezebox {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 100px;
+ } 
+
+.box {
+    padding: 20px;
+    padding-left: 100px;
+    width: 300px; 
+    margin: 0 auto; 
+    background-color: #fcdede; 
+  }
+  
+ul {
+    list-style-type: none; 
+    padding: 0; 
+  }
+  
+li {
+    margin-bottom: 10px; 
+    font-size: 16px; 
+  }
+.lastsect {
+    padding-left: 400px;
+}
+#skills {
+    padding-bottom: 20px;
+}
+.skillpara {
+    padding-bottom: 20px;
+
+}
+footer {
+    background-color: #f7bdbd;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-section {
+    text-align: center;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+    
+}
+.footer-section ul li:hover {
+    margin: 5px 0;
+    color: hotpink;
+    border-color: hotpink;
+}
+.footer-section ul li:hover {
+    margin: 5px 0;
+    color: hotpink;
+    border-color: hotpink;
+
+}
+
+.footer-section li a {
+        color: black; /* Change this to your desired default color */
+    }
+
+    /* Hot pink color on hover */
+.footer-section li a:hover {
+        color: hotpink;
+    }
+
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+.social-icons li:hover {
+    border: 2px solid hotpink; /* Change the border color to hot pink */
+  }
+
+.social-icons li {
+    display: inline-block;
+
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    /* Styles for devices with a maximum width of 767px (e.g., iPhone) */
+
+    .hero {
+        flex-direction: column-reverse;
+        padding: 0;
+        font-size: 14px;
+
+    }
+    .inline-block {
+        display:none
+    }
+    .centered-text {
+        width: 200px;
+    }
+    .Image {
+        padding-left: 40px;
+    }
+    .Header2 {
+        width: 400px
+        
+    
+    }
+
+    .process {
+        font-size: 14px;
+        padding-left: 10px;
+        flex-direction: column;
+    }
+
+    .my-class {
+        padding: 5px;
+    }
+
+    .png {
+       display: none;
+    }
+ 
+    .about-me,
+    .Design-process {
+        padding-left: 5px;
+        font-size: 15px;
+        
+    }
+
+    .p2 {
+        width: auto;
+        padding-left: 5px;
+        font-size: 14px;
+    }
+    .projects {
+        padding-left: 5px;
+        font-size: 14px;
+        
+    }
+
+    .mywork {
+        grid-template-columns: 1fr;
+        padding-left: 70px;
+        font-size: 14px;
+        
+    }
+    .seatmep {
+        padding-left: 30px;
+        padding-bottom: 20px;
+       
+    }
+    .justgop {
+        padding-left: 30px;
+        padding-bottom: 20px;
+        font-size: 14px;
+    }
+    .cfiap {
+        padding-left: 30px;
+        padding-bottom: 20px;
+    }
+
+    .website {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .website1 {
+        padding: 0;
+        flex-direction: column;
+        width: 100%;
+        font-size: 14px;
+        }
+    .website2 {
+        padding: 0;
+        flex-direction: column;
+        width: 100%;
+        font-size: 14px;
+    } 
+    .cfiawebp {
+    padding-top: 0;
+    width: 300px;
+    padding-left: 0;
+    }
+    
+    .rogerp {
+    padding-top: 0px;
+    width: 500px;
+    padding-left: 0px;
+    }
+    .lastsect {
+        padding: 0;
+        padding-left: 3px;
+        font-size: 14px;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column 
+    }
+    .footer-section {
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Styles for devices with a minimum width of 768px and maximum width of 1024px (e.g., iPad) */
+
+ /* Styles for devices with a maximum width of 767px (e.g., iPhone) */
+
+ .hero {
+    flex-direction: column-reverse;
+    padding: 0;
+    font-size: 14px;
+
+}
+.inline-block {
+    display:none
+}
+.centered-text {
+    width: 200px;
+}
+.Image {
+    padding-left: 40px;
+}
+.Header2 {
+    width: 400px
+    
+
+}
+
+.process {
+    font-size: 14px;
+    padding-left: 10px;
+    flex-direction: column;
+}
+
+.my-class {
+    padding: 5px;
+}
+
+.png {
+   display: none;
+}
+
+.about-me,
+.Design-process {
+    padding-left: 5px;
+    font-size: 15px;
+    
+}
+
+.p2 {
+    width: auto;
+    padding-left: 5px;
+    font-size: 14px;
+}
+.projects {
+    padding-left: 5px;
+    font-size: 14px;
+    
+}
+
+.mywork {
+    grid-template-columns: 1fr;
+    padding-left: 70px;
+    font-size: 14px;
+    
+}
+.seatmep {
+    padding-left: 30px;
+    padding-bottom: 20px;
+   
+}
+.justgop {
+    padding-left: 30px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.cfiap {
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.website {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.website1 {
+    padding: 0;
+    flex-direction: column;
+    width: 100%;
+    font-size: 14px;
+    }
+.website2 {
+    padding: 0;
+    flex-direction: column;
+    width: 100%;
+    font-size: 14px;
+} 
+.cfiawebp {
+padding-top: 0;
+width: 300px;
+padding-left: 0;
+}
+
+.rogerp {
+padding-top: 0px;
+width: 500px;
+padding-left: 0px;
+}
+.lastsect {
+    padding: 0;
+    padding-left: 3px;
+    font-size: 14px;
+}
+.footer {
+    display: flex;
+    flex-direction: column 
+}
+.footer-section {
+    padding: 10px;
+}
+}
