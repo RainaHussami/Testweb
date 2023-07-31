@@ -1,5 +1,5 @@
 alert ("Welcome!")
-$(document).ready(function() {
+  $(document).ready(function() {
     $("#scroll1").on("click", function(event) {
       event.preventDefault();
       $("html, body").animate(
@@ -10,8 +10,6 @@ $(document).ready(function() {
       );
     });
   });
-  
-
   $(document).ready(function() {
     $("#scroll2").on("click", function(event) {
       event.preventDefault();
