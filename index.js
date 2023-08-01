@@ -10,6 +10,7 @@ alert ("Welcome!")
       );
     });
   });
+  
   $(document).ready(function() {
     $("#scroll2").on("click", function(event) {
       event.preventDefault();
@@ -81,6 +82,7 @@ alert ("Welcome!")
       );
     });
   });
+
   $(document).ready(function() {
     $("#footer3").on("click", function(event) {
       event.preventDefault();
